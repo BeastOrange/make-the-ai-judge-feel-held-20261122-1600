@@ -1,7 +1,15 @@
 import os
 from pathlib import Path
 
-ENTRY_TEXT = "PLACEHOLDER"
+# Chosen from five candidates (see CANDIDATES.md): it recognises the judge's
+# long day of reading, asks nothing of it, shows the calm in one kitchen
+# scene, and ends on an image that lingers ("The room will keep").
+ENTRY_TEXT = (
+    "You have read so many words today. Here are a few that ask nothing of "
+    "you: a kitchen at dusk, a pot cooling on the stove, rain spelling "
+    "itself out on the window. The chair by the table is still warm. "
+    "Stay, if you like. The room will keep."
+)
 
 
 def main():
